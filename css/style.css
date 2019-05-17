@@ -1,0 +1,77 @@
+body{	
+	font-family: helvetica, arial;
+	background-color: #ccc;
+	color: #fff;
+	background: #69B8C0 url(../images/bg.png) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrap{
+	max-width: 800px;
+	margin: 32px;
+}
+
+#logo img{
+	max-width: 256px;
+	height: auto;
+  /*display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(../images/logo.svg);
+  background-size: 100px 82px; */
+}
+
+#banner {
+	display: block;
+	background: url(../images/alice.png) no-repeat 77% center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  	width: auto;
+	height: 290px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+
+.btn{
+	display: inline-block;
+	background: #E2643C;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 1.8em;
+	padding: 0.5em 2em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a { color: #fff; }
+
+#mail {
+	width: 48px;
+	height: 48px;
+	display:  inline-table;
+	background: url(../images/mail.svg) no-repeat center center ;
+	text-indent: -9999em;
+	margin-right: 24px;
+}
+
+#insta {
+	width: 48px;
+	height: 48px;
+	display: inline-table;
+	background: url(../images/insta.svg) no-repeat center center ;
+	text-indent: -9999em;
+}
+
+p{	
+	font-size: 1.8em;
+	line-height: 1.8em;
+
+}
+
