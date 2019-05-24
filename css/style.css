@@ -15,7 +15,7 @@ body{
 }
 
 #logo img{
-	max-width: 256px;
+	max-width: 320px;
 	height: auto;
   /*display: block;
   text-indent: -9999px;
@@ -27,13 +27,13 @@ body{
 
 #banner {
 	display: block;
-	background: url(../images/alice.png) no-repeat 77% center ;
+	/*background: url(../images/alice.png) no-repeat 77% center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  	width: auto;
-	height: 290px;
+  background-size: cover; */
+  	width: 100%;
+	height: auto;
 	border: 2px solid #fff;
 	border-radius: 10px;
 	margin-bottom: 40px;
@@ -44,8 +44,8 @@ body{
 	background: #E2643C;
 	color: #fff;
 	border-radius: 10px;
-	font-size: 1.8em;
-	padding: 0.5em 2em;
+	font-size: 1.30em;
+	padding: 0.8em 2em;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -58,7 +58,6 @@ a { color: #fff; }
 	display:  inline-table;
 	background: url(../images/mail.svg) no-repeat center center ;
 	text-indent: -9999em;
-	margin-right: 24px;
 }
 
 #insta {
@@ -70,8 +69,8 @@ a { color: #fff; }
 }
 
 p{	
-	font-size: 1.8em;
-	line-height: 1.8em;
+	font-size: 1.30em;
+	line-height: 1.30em;
 
 }
 
